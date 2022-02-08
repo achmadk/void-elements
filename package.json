@@ -1,7 +1,7 @@
 {
-  "name": "void-elements",
-  "version": "3.1.0",
-  "description": "Array of \"void elements\" defined by the HTML specification.",
+  "name": "@achmadk/void-elements",
+  "version": "1.0.0",
+  "description": "\"void-elements\" with TypeScript and ES Module support. Array of \"void elements\" defined by the HTML specification.",
   "main": "index.js",
   "typings": "types.d.ts",
   "jsnext:main": "index.es.js",
@@ -27,17 +27,18 @@
     "index.es.js",
     "types.d.ts"
   ],
-  "repository": "pugjs/void-elements",
+  "repository": "achmadk/void-elements",
   "author": "hemanth.hm",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=12.0.0"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pugjs/void-elements/issues"
+    "url": "https://github.com/achmadk/void-elements/issues"
   },
-  "homepage": "https://github.com/pugjs/void-elements",
+  "homepage": "https://github.com/achmadk/void-elements",
   "devDependencies": {
-    "jsdom": "^9.9.1"
+    "got": "12.0.1",
+    "jsdom": "19.0.0"
   }
 }
